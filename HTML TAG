@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+</head>
+<body>
+    <h1>My first heading</h1>
+    <p>This is my paragraph</p>
+    <a href="https://cipherschools.com">Go to Cipherschool</a>
+    <img src="https://ik.imagekit.io/cipherschools/CipherMentors/Harshit-Swiggy.png" alt="Harsh Image">
+    <button>click me </button>
+
+
+    <blockquote site="https://en.wikipedia.org/wiki/Harry_Potter">
+        Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. 
+        The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, 
+        all of whom are students at Hogwarts School of Witchcraft and Wizardry. 
+        The main story arc concerns Harry's conflict with Lord Voldemort, 
+        a dark wizard who intends to become immortal, 
+        overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).
+   </blockquote>
+    
+   <button>click me </button>
+
+   <q site="https://en.wikipedia.org/wiki/Harry_Potter">
+        Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. 
+        The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, 
+        all of whom are students at Hogwarts School of Witchcraft and Wizardry. 
+        The main story arc concerns Harry's conflict with Lord Voldemort, 
+        a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).</blockquote>
+    <button>click me </button>
+    </q>
+
+
+<p>
+    <abbr title="World health organization">Who</abbr>is good Person.
+ </p>
+
+
+ <address>
+        Taught By Ashish: <br>
+        Visit me on LinkedIN: <br>
+    </address>
+ </p>
+
+<h5>Unorder list</h5>   
+ <dl>
+    <li>Milk</li>
+    <li>Tea</li>
+    <li>Juice</li>
+ </dl>
+
+<dl>
+    <dt>Cofee</dt>
+    <dd>This dark brown drink</dd>
+    <dt>Milk</dt>
+    <dd>This is white drink</dd>
+ </dl>
+
+ <p>This is Ashish. <br> Ashish live in india </p>
+
+ <p>This is Ashish. <u>Ashish</u> live in india </p>
+
+ <p>This is Span Tag<span style="color: red;">Span</span></p>
+
+
+ <p>This is horizontal line</p>
+ <hr />
+
+</body>
+</html>
