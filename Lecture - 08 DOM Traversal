@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Traversal Example</title>
+</head>
+<body>
+    <div id="container">
+        <h1>DOM Traversal Example</h1>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <div class="footer">
+            <p>&copy; 2023 Example Company. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script>
+        // Select the container element
+        var container = document.getElementById("container");
+
+        // Traverse and log the child nodes of the container
+        var childNodes = container.childNodes;
+        for (var i = 0; i < childNodes.length; i++) {
+            var node = childNodes[i];
+            // Check if the node is an element node
+            if (node.nodeType === Node.ELEMENT_NODE) {
+                console.log(node);
+            }
+        }
+
+        // Select the first <ul> element within the container
+        var ulElement = container.querySelector("ul");
+
+        // Traverse and log the list items within the <ul> element
+        var listItems = ulElement.getElementsByTagName("li");
+        for (var i = 0; i < listItems.length; i++) {
+            console.log(listItems[i]);
+        }
+
+        // Select the <div> element with class "footer"
+        var footerDiv = container.querySelector(".footer");
+
+        // Traverse and log the descendant nodes within the footer div
+        var descendants = footerDiv.getElementsByTagName("*");
+        for (var i = 0; i < descendants.length; i++) {
+            console.log(descendants[i]);
+        }
+    </script>
+</body>
+</html>
