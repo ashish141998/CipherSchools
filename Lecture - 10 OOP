@@ -1,0 +1,20 @@
+class Student{
+ // Data (Properties)
+ Name
+ Age
+ Standard
+    
+ // Methods (Action)
+ study(){
+ // Study
+ }
+    
+ Play(){
+ // Play
+ }
+    
+ doHomeWork(){
+ // Do Home Work
+ }
+    
+}
