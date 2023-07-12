@@ -1,0 +1,15 @@
+// Using ES6 arrow function as an event handler
+document.getElementById('myButton').addEventListener('click', () => {
+  console.log('Button clicked!');
+});
+
+// Using ES6 template literals to create dynamic event message
+const elementId = 'myButton';
+document.getElementById(elementId).addEventListener('click', () => {
+  console.log(`Element with id '${elementId}' clicked!`);
+});
+
+// Using ES6 destructuring assignment to extract event data
+document.getElementById('myInput').addEventListener('input', ({ target }) => {
+  console.log(`Input value: ${target.value}`);
+});
