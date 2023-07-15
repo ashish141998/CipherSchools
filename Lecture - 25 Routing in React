@@ -1,0 +1,42 @@
+React Router Installation
+React contains three different packages for routing. These are:
+react-router: It provides the core routing components and functions for the React Router applications.
+react-router-native: It is used for mobile applications.
+react-router-dom: It is used for web applications design.
+$ npm install react-router-dom --save 
+
+Example
+Step-1: In our project, we will create two more components along with App.js, which is already present.
+
+About.js
+import React from 'react'  
+class About extends React.Component {  
+  render() {  
+    return <h1>About</h1>  
+  }  
+}  
+export default About  
+
+Contact.js
+
+import React from 'react'  
+class Contact extends React.Component {  
+  render() {  
+    return <h1>Contact</h1>  
+  }  
+}  
+export default Contact 
+
+App.js
+
+import React from 'react'  
+class App extends React.Component {  
+  render() {  
+    return (  
+      <div>  
+        <h1>Home</h1>  
+      </div>  
+    )  
+  }  
+}  
+export default App  
