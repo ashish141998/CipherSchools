@@ -1,0 +1,25 @@
+React.js is a popular JavaScript library used for building user interfaces (UI) in web applications. It allows developers to create reusable UI components and efficiently manage the state of their applications. React follows a component-based architecture, where the user interface is divided into independent, self-contained components that can be composed together to build complex UIs.
+import React, { useState } from 'react';
+
+const Counter = () => {
+  const [count, setCount] = useState(0);
+
+  const increment = () => {
+    setCount(count + 1);
+  };
+
+  const decrement = () => {
+    setCount(count - 1);
+  };
+
+  return (
+    <div>
+      <h1>Counter</h1>
+      <p>Count: {count}</p>
+      <button onClick={increment}>Increment</button>
+      <button onClick={decrement}>Decrement</button>
+    </div>
+  );
+};
+
+export default Counter;
